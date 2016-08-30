@@ -1,0 +1,68 @@
+#background
+{
+  background-color: #3F8BFA;
+}
+
+.input-group
+{
+  margin-top: 10px;
+}
+
+.btn-primary
+{
+  margin-top: 10px;
+}
+
+#triviaQuestions
+{
+  background-color: yellow;
+}
+
+.container
+{
+  text-align: center;
+  font-family: cursive;
+  background-color: #bbbb18;
+  width: 50%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 10px;
+}
+
+#titulo
+{
+  text-align: center;
+  font-family: Comic Sans MS;
+}
+
+#login
+{
+  font-size: 20px;
+}
+
+#member
+{
+  float: right;
+}
+
+@media (min-width: 768px)
+.container {
+    text-align: center;
+    width:800px;
+    margin: 0 auto;
+}
+
+@media (min-width: 992px)
+.container {
+    text-align: center;
+    width:800px;
+    margin: 0 auto;
+}
+
+.answer {
+  cursor: pointer;
+}
+
+.answer:hover { 
+    background-color: green;
+}
